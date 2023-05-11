@@ -110,9 +110,8 @@
 
 
 
-    
 
-      function crearPoliedro(numVertices) {
+      function Prisma(numVertices) {
   // Definir las coordenadas de los vértices
   const radio = 1;
   const angulo = (2 * Math.PI) / numVertices;
@@ -141,7 +140,7 @@
 }
 
 // Crear el poliedro y agregarlo a la escena
-const poliedro = crearPoliedro(5);
+const poliedro = Prisma(5);
 scene.add(poliedro);
 
 
